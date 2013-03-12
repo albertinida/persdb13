@@ -1,0 +1,74 @@
+body {
+	background-color: rgb(237,237,237);
+}
+
+body div {
+	background-color: white;
+}
+
+.header, .container {
+	width: 1000px;
+	text-align: center;
+	margin: auto;
+}
+
+.header {
+	width: 1000px;
+	height: 120px;
+	background: white url('images/logo.gif') no-repeat scroll center left;
+	background-size:130px auto;
+}
+
+.wrapper {
+	height: 700px;
+}
+
+.header {
+	padding-top: 30px;
+	margin-bottom: 5px;
+}
+
+.aside {
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+.content {
+	width: 598px;
+	height: 100%;
+	float: left;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	overflow: auto;
+}
+
+.footer {
+	height: 150px;
+	border-top: 1px solid black;
+}
+
+/* HEADER STYLE *****************************************************/
+.header h2, .header h3, .header h4, .header h5 {
+	/*       T   R   B   L */
+	margin: 2px 0px 2px 200px;
+	text-align: left;
+}
+
+/* LEFT ASIDE STYLE *************************************************/
+.aside ul {
+	list-style-type: none;
+}
+
+ul li {
+	text-align: left;
+}
+
+/* CONTENT STYLE ****************************************************/
+.content h2, .content h3, .content h4, .content h5 {
+	margin: auto;
+}
+
+/* ORGANIZATION STYLE ***********************************************/
+.organization {
+	margin: 8px 0px !important;
+}
