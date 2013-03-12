@@ -1,12 +1,12 @@
 <div class="aside left">
 	<ul>
-		<li><a href="javascript:void(0)" class="bt link" id="home">Home</a></li>
-		<li><a href="javascript:void(0)" class="bt link" id="topic">Topics of Interest</a></li>
-		<li><a href="javascript:void(0)" class="bt link" id="dates">Important Dates</a></li>
-		<li><a href="javascript:void(0)" class="bt link" id="submission">Paper Submission</a></li>
-		<li><a href="javascript:void(0)" class="bt link" id="registration">Registration</a></li>
-		<li><a href="javascript:void(0)" class="bt link" id="program">Program</a></li>
-		<li><a href="javascript:void(0)" class="bt link" id="keynotes">Keynotes</a></li>
-		<li><a href="javascript:void(0)" class="bt link" id="organization">Organization</a></li>
+		<li class="bt menu" id="home">Home</li>
+		<li class="bt menu" id="topic">Topics of Interest</li>
+		<li class="bt menu" id="dates">Important Dates</li>
+		<li class="bt menu" id="submission">Paper Submission</li>
+		<li class="bt menu" id="registration">Registration</li>
+		<li class="bt menu" id="program">Program</li>
+		<li class="bt menu" id="keynotes">Keynotes</li>
+		<li class="bt menu" id="organization">Organization</li>
 	</ul>
 </div>

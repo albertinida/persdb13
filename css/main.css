@@ -1,9 +1,9 @@
 body {
-	background-color: rgb(237,237,237);
+	background-color: white;
 }
 
 body div {
-	background-color: white;
+	background-color: transparent;
 }
 
 .header, .container {
@@ -33,13 +33,16 @@ body div {
 	height: 100%;
 	float: left;
 }
+
 .content {
-	width: 598px;
+	width: 600px;
 	height: 100%;
 	float: left;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
 	overflow: auto;
+}
+
+.content div {
+	width: auto;
 }
 
 .footer {
@@ -57,10 +60,26 @@ body div {
 /* LEFT ASIDE STYLE *************************************************/
 .aside ul {
 	list-style-type: none;
+	padding-left: 5px;
 }
 
 ul li {
+	font-weight: bold;
 	text-align: left;
+	width: 80%;
+	margin-top: 5px;
+	margin-bottom: 3px;
+	border-bottom: 2px solid transparent;
+}
+
+ul li:hover {
+	color: rgb(255,118,74);
+}
+
+ul li.active {
+	margin-bottom: 3px;
+	border-bottom: 2px solid rgb(255,118,74);
+	border-bottom-right-radius: 5px;
 }
 
 /* CONTENT STYLE ****************************************************/
