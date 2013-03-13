@@ -1,3 +1,3 @@
 <div class="home">
-	<h3>PersDB '13 Homepage</h3>
+	<h3>PersDB 2013 Homepage</h3>
 </div>
