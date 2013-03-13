@@ -97,6 +97,14 @@ body div {
 	color: <?php echo $pc ?>;
 }
 
+.header .vldbLogo {
+	float: right;
+	width: 250px;
+	height: 107px;
+	background-image: url('images/vldb-logo.png');
+	background-size: 100%;
+}
+
 /* LEFT ASIDE STYLE *************************************************/
 .left ul {
 	list-style-type: none;
