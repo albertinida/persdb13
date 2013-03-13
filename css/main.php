@@ -151,6 +151,10 @@ body div {
 }
 
 /* CONTENT STYLE ****************************************************/
+.content {
+	padding-top: 20px;
+}
+
 .content h2, .content h3, .content h4, .content h5 {
 	margin: auto;
 }
