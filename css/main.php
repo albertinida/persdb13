@@ -89,7 +89,7 @@ body div {
 /* HEADER STYLE *****************************************************/
 .header h2, .header h3, .header h4, .header h5 {
 	/*       T   R   B   L */
-	margin: 2px 0px 2px 200px;
+	margin: 2px 0px 2px 150px;
 	text-align: left;
 }
 
@@ -98,7 +98,7 @@ body div {
 }
 
 /* LEFT ASIDE STYLE *************************************************/
-.aside ul {
+.left ul {
 	list-style-type: none;
 	padding-left: 5px;
 	background: url('images/menu-bg.png') repeat-y;
@@ -107,11 +107,11 @@ body div {
 	border-bottom-left-radius: 10px;
 }
 
-.aside ul li.border {
+.left ul li.border {
 	height: 5px;
 }
 
-.aside ul li {
+.left ul li {
 	color: <?php echo $fc ?>;
 	text-align: left;
 	font-weight: 600;
@@ -120,19 +120,26 @@ body div {
 	border-bottom: 2px solid transparent;
 }
 
-.aside ul li:hover {
+.left ul li:hover {
 	border-bottom: 2px solid <?php echo $pc ?>;
 	cursor: pointer;
 }
 
-.aside ul li.border:hover {
+.left ul li.border:hover {
 	cursor: default;
 	border-bottom: 2px solid transparent;
 }
 
-.aside ul li.active {
+.left ul li.active {
 	margin-bottom: 3px;
 	border-bottom: 2px solid <?php echo $pc ?>;
+}
+
+.left .vldbLogo {
+	width: 100%;
+	height: 86px;
+	background-image: url('images/vldb-logo.png');
+	background-size: 100%;
 }
 
 /* CONTENT STYLE ****************************************************/

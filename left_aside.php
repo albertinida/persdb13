@@ -12,4 +12,6 @@
 		<li class="bt menu" id="organization">ORGANIZATION</li>
 		<li class="border menu">&nbsp;</li>
 	</ul>
+
+	<div class="vldbLogo"></div>	
 </div>
