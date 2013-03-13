@@ -16,7 +16,7 @@ $j(document).ready(function(){
 										baseUrl+'?page='+$j(evt.currentTarget).attr('id'));
 				$j('.content').html(data);
 			
-				$j.each($j('.bt.menu'), function(index, value){
+				$j.each($j('li.bt.menu'), function(index, value){
 					if ($j(value).hasClass('active'))
 						$j(value).removeClass('active');
 				});
@@ -24,4 +24,5 @@ $j(document).ready(function(){
 			}
 		});
 	});
+	
 });

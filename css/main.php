@@ -121,10 +121,13 @@ body div {
 }
 
 .aside ul li:hover {
-/*	color: <?php echo $tc ?>; */
-	margin-bottom: 3px;
 	border-bottom: 2px solid <?php echo $pc ?>;
 	cursor: pointer;
+}
+
+.aside ul li.border:hover {
+	cursor: default;
+	border-bottom: 2px solid transparent;
 }
 
 .aside ul li.active {
