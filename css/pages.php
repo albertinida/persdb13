@@ -46,3 +46,11 @@
 	color: <?php echo $fc?>;
 	font-weight: 600;
 }
+
+.organization .mailto {
+	cursor: pointer;
+}
+
+.organization .mailto:hover {
+	color: <?php echo $sc?>;
+}

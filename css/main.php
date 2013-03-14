@@ -60,25 +60,9 @@ body div {
 	height: 700px;
 }
 
-.header {
-	padding-top: 30px;
-	margin-bottom: 5px;
-}
-
 .aside {
 	width: 200px;
 	float: left;
-}
-
-.content {
-	width: 650px;
-	height: 100%;
-	float: left;
-	overflow: auto;
-}
-
-.content div {
-	width: auto;
 }
 
 .footer {
@@ -87,6 +71,12 @@ body div {
 }
 
 /* HEADER STYLE *****************************************************/
+
+.header {
+	padding-top: 30px;
+	margin-bottom: 5px;
+}
+
 .header h2, .header h3, .header h4, .header h5 {
 	/*       T   R   B   L */
 	margin: 2px 0px 2px 150px;
@@ -151,8 +141,20 @@ body div {
 }
 
 /* CONTENT STYLE ****************************************************/
+
 .content {
 	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+	width: 630px;
+	height: 660px;
+	float: left;
+	overflow: auto;
+}
+
+.content div {
+	width: auto;
 }
 
 .content h2, .content h3, .content h4, .content h5 {

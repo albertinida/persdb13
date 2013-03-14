@@ -25,4 +25,17 @@ $j(document).ready(function(){
 		});
 	});
 	
+	bindEmailContacts();
 });
+
+/* Binding for organization contacts */
+function bindEmailContacts() {
+	$j('.organization td').unbind('click');
+	$j('.organization td').bind('click', function(evt){
+		if (typeof $j(evt.currentTarget).attr('data-name') != 'undefined') {
+			window.open('mailto:'+$j(evt.currentTarget).attr('data-name')+'@'+$j(evt.currentTarget).attr('data-domain')+'?subject=Information about PersDB 2013');
+		} else {
+			return false;
+		}
+	});
+}
