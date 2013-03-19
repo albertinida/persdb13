@@ -5,6 +5,10 @@
 
 	<p>All aforementioned applications rely critically on user-centric data — such as profile data, preferences, activity logs, location, group memberships, and social connections — to provide a personalized experience, including personalized search results, personalized ads, product recommendations, coupons and so forth. Additionally, online social applications provide an unprecedented amount of user-contributed social and context data. The interconnected nature of personalized, social, and contextual data management problems as well as the fertile research ground these represent motivate a discussion on these problems within the database community. We need to obtain a common understanding of new challenges and to collaborate on the design of new models, algorithms, and systems for emerging applications. The PersDB 2013 workshop aims at providing the appropriate venue for discussion and debate of the relevant issues and at nurturing related future research and applications.</p>
 	
-	<br/>
-	<a href="?page=topic"><h3>Topics of Interest</h3></a>
 </div>
+
+<?php 
+include('topic.php'); 
+include('submission.php');
+include('organization.php');
+?>

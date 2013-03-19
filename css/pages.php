@@ -1,5 +1,16 @@
+.content div {
+	margin: 35px auto;
+}
+
 .container div h3 {
 	margin-bottom: 20px;
+}
+
+/* HOMEPAGE STYLE ***********************************************/
+
+.home p {
+	text-align: justify;
+	padding: 0 15px;
 }
 
 /* TOPIC STYLE ***********************************************/
@@ -29,6 +40,13 @@
 .submission p {
 	text-align: justify;
 	padding: 0 15px;
+}
+
+/* DATES STYLE ***********************************************/
+
+.dates p {
+	text-align: left;
+	padding: 0 0 0 100px;
 }
 
 /* ORGANIZATION STYLE ***********************************************/
