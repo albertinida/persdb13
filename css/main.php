@@ -110,6 +110,7 @@ body div {
 	background-image: url('images/vldb-logo.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
+	cursor: pointer;
 }
 
 /* LEFT ASIDE STYLE *************************************************/

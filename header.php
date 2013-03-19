@@ -6,5 +6,5 @@
 		<h3>Personalized Access, Profile Management, and Context Awareness</h3><h3>in Databases</h3>
 		<h4>26<sup>th</sup> - 30<sup>th</sup> August, 2013 - Riva del Garda, Trento, Italy</h4>
 	</div>
-	<div class="vldbLogo"></div>
+	<div class="vldbLogo" onClick="window.open('http://www.vldb.org/2013/')"></div>
 </div>
