@@ -54,3 +54,27 @@
 .organization .mailto:hover {
 	color: <?php echo $sc?>;
 }
+
+/* PREVIOUS WORKSHOP STYLE ********************************************/
+
+.previous ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+.previous ul li {
+	margin-left: 10px;
+}
+
+.previous ul li a {
+	text-decoration: none;
+	cursor: pointer;
+	color: <?php echo $pc?>;
+	font-weight: 600;
+}
+
+.previous ul li:hover a {
+	text-decoration: underline;
+	cursor: pointer;
+	color: <?php echo $tc?>;
+}

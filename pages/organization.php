@@ -7,7 +7,7 @@
 	<table border="0" cellspacing="5" cellpadding="5">
 		<tr><th>STEERING COMMITTEE</th><th></th></tr>
 		<tr><td class="mailto">Yannis Ioannidis</td><td>(University of Athens, Hellas)</td></tr>
-		<tr><td class="mailto">Georgia Koutrika</td><td>(HP Labs, USA)</td></tr>
+		<tr><td class="mailto" data-name="koutrika" data-domain="hp.com">Georgia Koutrika</td><td>(HP Labs, USA)</td></tr>
 		<tr><th>PC CHAIRS</th><th></th></tr>
 		<tr><td class="mailto" data-name="barbara.carminati" data-domain="uninsubria.it">Barbara Carminati</td><td>(University of Insubria, Italy)</td></tr>
 		<tr><th>PC MEMBERS</th><th></th></tr>

@@ -3,7 +3,7 @@
 
 	// Palette colors definition
 	// background, primary, secondary, tertiary and fourth
-	$bg = '#EEEEEE';
+	$bg = '#FFFFFF';
 	$pc = '#165821';
 	$sc = '#00792A';
 	$tc = '#4F6ECA';
@@ -50,12 +50,6 @@ body div {
 	margin: auto;
 }
 
-.header {
-	height: 120px;
-	background: url('images/logo.gif') no-repeat scroll center left;
-	background-size:130px auto;
-}
-
 .wrapper {
 	height: 700px;
 }
@@ -66,20 +60,27 @@ body div {
 }
 
 .footer {
+	background: transparent;
+	width: 1080px;
 	height: 149px;
 	border-top: 1px solid black;
+	margin: 0 10px 0 10px;
+	/* for border overlap */
+	position: relative;
+	top: -1px;
 }
 
 /* HEADER STYLE *****************************************************/
 
 .header {
+	height: 120px;
 	padding-top: 30px;
 	margin-bottom: 5px;
 }
 
 .header h2, .header h3, .header h4, .header h5 {
 	/*       T   R   B   L */
-	margin: 2px 0px 2px 150px;
+	margin: 2px 0px 2px 0px;
 	text-align: left;
 }
 
@@ -87,12 +88,28 @@ body div {
 	color: <?php echo $pc ?>;
 }
 
+.header .persdbLogo {
+	float: left;
+	width: 120px;
+	height: 120px;
+	background-image: url('images/persdb-logo.gif');
+	background-size: 100% 100%;
+}
+
+.header .title {
+	float:left;
+	padding: 0 0 0 15px;
+	width: 715px;
+	height: 120px;
+}
+
 .header .vldbLogo {
-	float: right;
+	float: left;
 	width: 250px;
-	height: 107px;
+	height: 100%;
 	background-image: url('images/vldb-logo.png');
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 /* LEFT ASIDE STYLE *************************************************/
@@ -168,11 +185,11 @@ body div {
 /* RIGHT ASIDE STYLE ************************************************/
 .right {
 	width: 248px;
-	height: 100%;
+	height: 698px;
 	border: 1px solid black;
-	border-bottom: 0px;
 	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	border-top-right-radius: 10px;	
+	border-bottom-right-radius: 10px;
 }
 
 .right h3 {
