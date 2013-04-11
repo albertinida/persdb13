@@ -51,7 +51,7 @@
 
 /* ORGANIZATION STYLE ***********************************************/
 .organization {
-	margin-bottom: auto;
+	margin-bottom: 1px!important;
 }
 
 .organization h3 {
