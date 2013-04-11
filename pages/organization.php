@@ -1,9 +1,9 @@
 <div class="organization">
 	<h3>ORGANIZATION</h3>
 	
-	<table border="0" cellspacing="5" cellpadding="5">
+	<table border="0" cellspacing="5" cellpadding="0">
 		
-		<tr><th>STEERING COMMITTEE</th><th></th></tr>
+		<tr><th style="padding-top:0px;">STEERING COMMITTEE</th><th style="padding-top:0px;"></th></tr>
 		<tr><td>Yannis Ioannidis</td><td>(University of Athens, Hellas)</td></tr>
 		<tr><td>Georgia Koutrika</td><td>(HP Labs, USA)</td></tr>
 		

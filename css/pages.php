@@ -58,13 +58,13 @@
 	margin: auto;
 	width: 90%;
 	text-align: left;
+	font--size: 0.95em;
 }
 
 .organization table th {
 	color: <?php echo $fc?>;
 	font-weight: 600;
-	padding-top: 30px;
-	padding-bottom: 10px;
+	padding-top: 20px;
 }
 
 .organization .mailto {
