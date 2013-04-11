@@ -50,6 +50,10 @@
 }
 
 /* ORGANIZATION STYLE ***********************************************/
+.organization {
+	overflow: hidden;
+}
+
 .organization h3 {
 	margin-bottom: 10px!important;
 }
@@ -58,10 +62,6 @@
 	margin: 8px 0px !important;
 }
 
-.organization div {
-	overflow: hidden;
-}
-	
 .organization table {
 	margin: auto;
 	width: 90%;
