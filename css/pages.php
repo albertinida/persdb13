@@ -63,6 +63,7 @@
 .organization table th {
 	color: <?php echo $fc?>;
 	font-weight: 600;
+	padding-top: 15px;
 }
 
 .organization .mailto {
