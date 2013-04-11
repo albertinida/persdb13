@@ -50,15 +50,23 @@
 }
 
 /* ORGANIZATION STYLE ***********************************************/
+.organization h3 {
+	margin-bottom: 10px!important;
+}
+
 .organization h4 {
 	margin: 8px 0px !important;
+}
+
+.organization div {
+	overflow: hidden;
 }
 	
 .organization table {
 	margin: auto;
 	width: 90%;
 	text-align: left;
-	font--size: 0.95em;
+	font-size: 0.95em;
 }
 
 .organization table th {
