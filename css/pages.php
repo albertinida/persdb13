@@ -60,6 +60,10 @@
 	padding-right: 15px;
 }
 
+.keynotes .keynote a {
+	cursor: pointer;
+}
+
 /* ORGANIZATION STYLE ***********************************************/
 .organization {
 	margin-bottom: 1px!important;
