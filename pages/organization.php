@@ -27,6 +27,8 @@
 		<tr><td>Shu Tao</td><td>(IBM T.J.Watson Research Center)</td></tr>	
 		<tr><td>Alexander Ulanov</td><td>(HP Labs Russia)</td></tr>	
 		<tr><td>Min Xie</td><td>(University of British Columbia)</td></tr>		
+		<tr><td>Panos Chrysanthis</td><td>(University of Pittsburgh)</td></tr>		
+		<tr><td>Markus Endres</td><td>(University of Augsburg)</td></tr>		
 		
 		<tr><th>PersDB 2013 WEBSITE</th><th></th></tr>
 		<tr><td>Davide Albertini</td><td>(University of Insubria, Italy)</td></tr>
