@@ -49,6 +49,17 @@
 	padding: 0 0 0 100px;
 }
 
+/* KEYNOTES STYLE **************************/
+.keynotes .keynote {
+	
+}
+
+.keynotes .keynote p {
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 /* ORGANIZATION STYLE ***********************************************/
 .organization {
 	margin-bottom: 1px!important;
