@@ -49,6 +49,10 @@
 	padding: 0 0 0 100px;
 }
 
+.dates strike {
+	text-decoration: line-through;
+}
+
 /* KEYNOTES STYLE **************************/
 .keynotes .keynote {
 	
