@@ -125,3 +125,23 @@
 	cursor: pointer;
 	color: <?php echo $tc?>;
 }
+
+/* PROGRAM STYLE ********************************************************/
+
+.program table {
+	width: 98%;
+	margin: auto;
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+}
+
+.program td {
+	text-align: left;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
+	padding: 8px;
+}
+
+.program td.time {
+	color: <?php echo $pc?>;
+}

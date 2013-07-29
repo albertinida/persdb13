@@ -1,38 +1,54 @@
 <div class="program">
 
+	<table cellspacing="0">
+		<tr>
+			<td class="time">8.30</td>
+			<td>Welcome and registration</td>
+		</tr>
 
-	<p>8.30 Welcome and registration</p>
+		<tr>
+			<td class="time">8.45 - 10.00</td>
+			<td><b>Serious games meets Adaptive Hypermedia:<br/>Integrating games into web-based e-learning systems</b><br/>Maurice Hendrix</td>
+		</tr>
 
-	<p>8.45 - 10.00 keynote<br/> 
-	Maurice Hendrix<br/>
-	Serious games meets Adaptive Hypermedia:<br/>
-	Integrating games into web-based e-learning systems</p>
+		<tr>
+			<td class="time">&nbsp;</td>
+			<td>Coffee Break</td>
+		</tr>	
+			
+		<tr>
+			<td class="time">10.30 - 11.10</td>
+			<td><b>Peckalytics: Analyzing Experts and Interests on Twitter</b><br/>Alex Cheng, Nilesh Bansal, Nick Koudas</td>
+		</tr>
 
+		<tr>
+			<td class="time">11.10 - 11.40</td>
+			<td><b>Recommendation by Examples</b><br/>Rubi Boim, Tova Milo</td>
+		</tr>
 
-	<p>coffee break</p>
+		<tr>
+			<td class="time">&nbsp;</td>
+			<td>Lunch</td>
+		</tr>
 
-	<p>10.30- 11.10<br/> 
-	 Peckalytics: Analyzing Experts and Interests on Twitter<br/>
-	 Alex Cheng, Nilesh Bansal, Nick Koudas</p>
+		<tr>
+			<td class="time">13.30 - 14.30</td>
+			<td><b>Two of the Many Faces of Ranking: Diversity and Time</b><br/>Evaggelia Pitoura</td>
+		</tr>
 
-	<p>11.10 - 11.40<br/>
-	Rubi Boim and Tova Milo<br/>
-	Recommendation by Examples</p>
+		<tr>
+			<td class="time">14.30 - 15.30</td>
+			<td><b>Georgia Koloniari, Kostas Stefanidis</b></br>Social Search Queries in Time</td>
+		</tr>
+			
+		<tr>	
+			<td class="time">&nbsp;</td>
+			<td><b>Coping with the Persistent Coldstart Problem</b><br/>Siarhei Bykau, Georgia Koutrika and Yannis Velegrakis</td>
+		</tr>
 
-	<p>Lunch</p>
-
-	<p>13.30 - 14.30 keynote<br/>
-	Evaggelia Pitoura<br/>
-	Two of the Many Faces of Ranking: Diversity and Time</p>
-
-
-	<p>14.30 - 15.30<br/> 
-	Social Search Queries in Time,<br/>
-	Georgia Koloniari and Kostas Stefanidis</p> 
-
-	<p>Coping with the Persistent Coldstart Problem,<br/>
-	Siarhei Bykau, Georgia Koutrika and Yannis Velegrakis</p>        
-
-	<p>15.30 conclusion</p>
-	
+		<tr>
+			<td class="time">15.30</td>
+			<td>Conclusion</td>
+		</tr>
+	</table>
 </div>
