@@ -9,7 +9,7 @@
 	</div>
 	
 	<div class="keynote">
-		<h3>Keynote speaker: Evaggelia Pitoura</h3>
+		<h3>Keynote speaker: <a href="http://www.cs.uoi.gr/~pitoura/">Evaggelia Pitoura</a></h3>
 		
 		<h4>Two of the Many Faces of Ranking: Diversity and Time</h4>
 		
